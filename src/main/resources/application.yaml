@@ -18,5 +18,10 @@ spring:
     enabled: true
     baseline-on-migrate: true
 
+weather:
+  api:
+    base-url: https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline
+    key: 4YKACDJV3THBDLZCSFUX46ZJW
+
   application:
     name: monolith-core
